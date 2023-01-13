@@ -1,73 +1,73 @@
 #1-PYTHON PROGRAM TO PRINT HELLO WORLD!
-#print("Hello World!")
+print("Hello World!")
 
 
 #2-PROGRAM FOR ADDITION OF TWO NUMBERS
-#num_1=int(input("enter first number:"))
-#num_2=int(input("enter second number:"))
-#sum1=num_1+num_2
-#print("sum of numbers=",sum1) 
+num_1=int(input("enter first number:"))
+num_2=int(input("enter second number:"))
+sum1=num_1+num_2
+print("sum of numbers=",sum1) 
 
 
 #3-PROGRAM TO PRINT QUOTIENT AND REMAINDER OF TWO NUMBERS
-#num_1=int(input("enter first number:"))
-#num_2=int(input("enter second number:"))
-#if(num_1==0 or num_2==0):
-#    print("WRONG CHOICE")
-#else:
-#    print("Quotient on dividing",num_1,"with",num_2,"is",(num_1/num_2))
-#    print("Remainder on dividing",num_1,"with",num_2,"is",(num_1%num_2))
-#    print("Quotient on dividing",num_2,"with",num_1,"is",(num_2/num_1))
-#    print("Remainder on dividing",num_2,"with",num_1,"is",(num_2%num_1))
+num_1=int(input("enter first number:"))
+num_2=int(input("enter second number:"))
+if(num_1==0 or num_2==0):
+    print("WRONG CHOICE")
+else:
+    print("Quotient on dividing",num_1,"with",num_2,"is",(num_1/num_2))
+    print("Remainder on dividing",num_1,"with",num_2,"is",(num_1%num_2))
+    print("Quotient on dividing",num_2,"with",num_1,"is",(num_2/num_1))
+    print("Remainder on dividing",num_2,"with",num_1,"is",(num_2%num_1))
 
 
 #4-PROGRAM TO FIND AVERAGE OF THREE NUMBERS
-#num_1=int(input("enter first number:"))
-#num_2=int(input("enter second number:"))
-#num_3=int(input("enter third number:"))
-#avg=(num_1+num_2+num_3)/3
-#print("average of",num_1,num_2,num_3,"is",avg)
+num_1=int(input("enter first number:"))
+num_2=int(input("enter second number:"))
+num_3=int(input("enter third number:"))
+avg=(num_1+num_2+num_3)/3
+print("average of",num_1,num_2,num_3,"is",avg)
 
 
 #5-PROGRAM TO FIND SUM OF 5 SUBJECTS AND THEIR PERCENTAGE
-#sub_1=int(input("enter marks of first subject:"))
-#sub_2=int(input("enter marks of second subject:"))
-#sub_3=int(input("enter marks of third subject:"))
-#sub_4=int(input("enter marks of fourth subject:"))
-#sub_5=int(input("enter marks of fifth subject:"))
-#sum_=(sub_1+sub_2+sub_3+sub_4+sub_5)
-#percentage=((sub_1+sub_2+sub_3+sub_4+sub_5)*100)/500
-#print("sum of five subjects=",sum_)
-#print("percentage of five subjects=",percentage,"%")
+sub_1=int(input("enter marks of first subject:"))
+sub_2=int(input("enter marks of second subject:"))
+sub_3=int(input("enter marks of third subject:"))
+sub_4=int(input("enter marks of fourth subject:"))
+sub_5=int(input("enter marks of fifth subject:"))
+sum_=(sub_1+sub_2+sub_3+sub_4+sub_5)
+percentage=((sub_1+sub_2+sub_3+sub_4+sub_5)*100)/500
+print("sum of five subjects=",sum_)
+print("percentage of five subjects=",percentage,"%")
 
 
 #6-PROGRAM TO FIND GROSS SALARY
-#annual_salary=int(input("enter annual salary:"))
-#pay_period=int(input("enter number of pays in an year:"))
-#salary=annual_salary/pay_period
-#print("Gross salary ineach period=",salary)
+annual_salary=int(input("enter annual salary:"))
+pay_period=int(input("enter number of pays in an year:"))
+salary=annual_salary/pay_period
+print("Gross salary ineach period=",salary)
 
 
 #7-PROGRAM TO CALCULATE AREA OF RECTANGLE AND SQUARE
-#l=int(input("enter length of rectangle:"))
-#b=int(input("enter breadth of rectangle:"))
-#a=int(input("enter length of side of square:"))
-#a_rect=l*b
-#a_sqr=a*a
-#print("area of rectangle=",a_rect)
-#print("area of square=",a_sqr)
+l=int(input("enter length of rectangle:"))
+b=int(input("enter breadth of rectangle:"))
+a=int(input("enter length of side of square:"))
+a_rect=l*b
+a_sqr=a*a
+print("area of rectangle=",a_rect)
+print("area of square=",a_sqr)
 
 
 #8-PROGRAM TO CALCULATE AREA OF SCALENE AND RIGHT ANGLED TRIANGLE
-#a=int(input("enter length of first side of scalene triangle:"))
-#b=int(input("enter length of second side of scalene triangle:"))
-#c=int(input("enter length of third side of scalene triangle:"))
-#b=int(input("enter base of right angled triangle:"))
-#h=int(input("enter height of right angled traingle:"))
-#s=(a+b+c)/2
-#a_scalene=((s*(s-a)*(s-b)*(s-c))**(1/2)) 
-#a_right=(b*h)*(1/2)
-#print("area of scalene triangle with side",a,b,c,"is",a_scalene)
+a=int(input("enter length of first side of scalene triangle:"))
+b=int(input("enter length of second side of scalene triangle:"))
+c=int(input("enter length of third side of scalene triangle:"))
+b=int(input("enter base of right angled triangle:"))
+h=int(input("enter height of right angled traingle:"))
+s=(a+b+c)/2
+a_scalene=((s*(s-a)*(s-b)*(s-c))**(1/2)) 
+a_right=(b*h)*(1/2)
+print("area of scalene triangle with side",a,b,c,"is",a_scalene)
 #print("area of right angled triangle with base",b,"and",h,"is",a_right)
 
 
@@ -83,20 +83,20 @@
 #v_cube=a**3
 #lsa_cuboid=((2*h)*(l+b))
 #tsa_cuboid=2*((l*b)+(b*h)+(l*h))
-#v_cuboid=l*b*h
-#csa_cylinder=(2*3.14)*(r*H)
-#tsa_cylinder=(2*3.14*r)*(H+r)
-#v_cylinder=3.14*(r**2)*H
-#print()
-#print("Lateral surface area of cube=",lsa_cube)
-#print("total surface area of cube=",tsa_cube)
-#print("volume of cube=",v_cube)
-#print("lateral suraface area of cuboid=",lsa_cuboid)
-#print("total surface area of cuboid=",tsa_cuboid)
-#print("volume of cuboid=",v_cuboid)
-#print("curved surface area of cylinder=",v_cylinder)
-#print("total surface area of cylinder=",tsa_cylinder)
-#print("volume of cylinder=",v_cylinder) 
+v_cuboid=l*b*h
+csa_cylinder=(2*3.14)*(r*H)
+tsa_cylinder=(2*3.14*r)*(H+r)
+v_cylinder=3.14*(r**2)*H
+print()
+print("Lateral surface area of cube=",lsa_cube)
+print("total surface area of cube=",tsa_cube)
+print("volume of cube=",v_cube)
+print("lateral suraface area of cuboid=",lsa_cuboid)
+print("total surface area of cuboid=",tsa_cuboid)
+print("volume of cuboid=",v_cuboid)
+print("curved surface area of cylinder=",v_cylinder)
+print("total surface area of cylinder=",tsa_cylinder)
+print("volume of cylinder=",v_cylinder) 
 
 
 #10-PROGRAM TO FIND VOLUME AND SURFACE AREA OF CONE,SPHERE AND CYLINDER
